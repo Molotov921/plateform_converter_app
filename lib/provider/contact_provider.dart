@@ -166,4 +166,16 @@ class ContactProvider extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  Contact? _selectedContact;
+
+  Contact? get selectedContact => _selectedContact;
+
+  void deleteSelectedContact() {
+    if (_selectedContact != null) {
+      contactList.remove(_selectedContact);
+      _selectedContact = null; // Clear the selected contact after deletion
+      notifyListeners();
+    }
+  }
 }

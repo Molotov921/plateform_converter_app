@@ -1,4 +1,4 @@
-import 'package:platform_converter_ios_android/provider/month_provider.dart';
+import 'package:platform_converter_ios_android/provider/time_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 

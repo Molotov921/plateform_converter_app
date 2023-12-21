@@ -1,7 +1,7 @@
 import 'package:platform_converter_ios_android/components/ios/call.dart';
 import 'package:platform_converter_ios_android/components/ios/chat.dart';
 import 'package:platform_converter_ios_android/components/ios/setting.dart';
-import 'package:platform_converter_ios_android/provider/theme_chenge_app_provider.dart';
+import 'package:platform_converter_ios_android/provider/theme_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 
@@ -39,7 +39,6 @@ class _HomeIState extends State<HomeI> {
             themeProFalse.platFromCheck();
           },
         ),
-        leading: const Icon(CupertinoIcons.list_bullet),
       ),
       child: CupertinoTabScaffold(
           tabBar: CupertinoTabBar(

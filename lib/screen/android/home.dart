@@ -3,7 +3,7 @@ import 'package:platform_converter_ios_android/components/android/calls.dart';
 import 'package:platform_converter_ios_android/components/android/chats.dart';
 import 'package:platform_converter_ios_android/components/android/settings.dart';
 import 'package:platform_converter_ios_android/provider/contact_provider.dart';
-import 'package:platform_converter_ios_android/provider/theme_chenge_app_provider.dart';
+import 'package:platform_converter_ios_android/provider/theme_provider.dart';
 import 'package:platform_converter_ios_android/screen/android/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

@@ -1,6 +1,6 @@
 import 'package:platform_converter_ios_android/provider/contact_provider.dart';
-import 'package:platform_converter_ios_android/provider/month_provider.dart';
-import 'package:platform_converter_ios_android/provider/theme_chenge_app_provider.dart';
+import 'package:platform_converter_ios_android/provider/time_provider.dart';
+import 'package:platform_converter_ios_android/provider/theme_provider.dart';
 import 'package:platform_converter_ios_android/screen/android/home.dart';
 import 'package:platform_converter_ios_android/screen/ios/home_ios.dart';
 import 'package:flutter/cupertino.dart';
